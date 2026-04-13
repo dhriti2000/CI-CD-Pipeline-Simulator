@@ -1,0 +1,11 @@
+jobs:
+  - name: build
+
+  - name: test
+    depends_on:
+      - build
+    retries: 3
+
+  - name: deploy
+    depends_on:
+      - test
