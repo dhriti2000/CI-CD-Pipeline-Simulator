@@ -45,12 +45,15 @@ Simulates real-world DevOps pipeline behavior including:
 
 
 How It Works
+
+
 Jobs are defined in a YAML file
 Dependencies are resolved using DAG logic
 Scheduler queues jobs with no dependencies
 Workers execute jobs in parallel
 Failed jobs retry based on configuration
 Logs are stored in pipeline.log
+
 📊 Key Concepts Used
 Multithreading
 Queue-based scheduling
@@ -58,65 +61,10 @@ DAG execution model
 YAML parsing
 Retry & fault tolerance
 Logging systems
+
 🎯 Use Cases
 Learning CI/CD pipeline internals
 Understanding DevOps orchestration
 Demonstrating system design in interviews
 Practicing concurrency and scheduling
-🚀 Future Improvements
-🌐 Web dashboard (Streamlit / React)
-📊 Pipeline visualization (Graph view)
-🐳 Docker-based job execution
-🔌 REST API to trigger pipelines
-📦 Plugin system for custom jobs
-👤 Author
-
-Your Name
-
-⭐ If you like this project
-
-Give it a star ⭐ and share it!
-
-
----
-
-# 🔥 What You Just Did (Important)
-
-This README now signals:
-
-✅ You understand DevOps concepts  
-✅ You built something structured  
-✅ You can explain your system  
-✅ You are not a copy-paste candidate  
-
----
-
-# ⚠️ Before You Upload to GitHub
-
-Do these 3 things:
-
-### 1. Replace:
-```bash
-your-username
-2. Add your name:
-Author: Your Name
-3. Push properly:
-git init
-git add .
-git commit -m "Initial commit - CI/CD Pipeline Simulator"
-git branch -M main
-git remote add origin <your-repo-link>
-git push -u origin main
-💬 Straight Talk
-
-Now you're no longer just “learning DevOps”.
-
-👉 You're demonstrating it — and that’s what gets interviews.
-
-If you want next level:
-
-👉 I can help you turn this into a portfolio + LinkedIn post that attracts recruiters
-
-Just say: “make linkedin post” 🚀
-
 
